@@ -33,6 +33,7 @@ main {
 }
 
 .glass {
+    display: flex;
     background: white;
     min-height: 80vh;
     /*width: 60%;*/
@@ -41,7 +42,6 @@ main {
     border-radius: 2rem;
     z-index: 2;
     backdrop-filter: blur(2rem);
-    display: flex;
 }
 
 .circle1, 
@@ -137,7 +137,7 @@ i {
 }
 
 .display {
-    margin: 5rem;
+    margin: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -186,4 +186,21 @@ i {
 
 .fa-brands{
     color: #574296;
+}
+
+/* Mobile Display */
+@media only screen and (max-width: 768px) {
+    .glass {
+        display: block;
+        background: white;
+        min-height: 80vh;
+        width: 65%;
+        background: linear-gradient(to right bottom, rgba(255,255, 255, 0.7), rgba(255,255, 255, 0.3));
+        border-radius: 2rem;
+        z-index: 2;
+        backdrop-filter: blur(2rem);
+    }
+
+    
+
 }

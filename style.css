@@ -131,6 +131,10 @@ i {
     padding-right: 1rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 .resume h2 {
     color: white;
     font-weight: 600;
@@ -161,7 +165,7 @@ i {
 
 .about h2 {
     font-size: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .about .fa-brands {

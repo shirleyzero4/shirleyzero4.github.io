@@ -225,6 +225,8 @@ a {
     .glass {
         display: block;
         width: 70%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
     .home h1 {
@@ -234,6 +236,12 @@ a {
 
     .about h2 {
         font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .about .icon {
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .dashboard {
@@ -250,6 +258,12 @@ a {
         overflow: auto;
         width: 60%;
     }
+
+    .projects h1 {
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
     .card {
         display: block;
         align-items: center;
@@ -261,5 +275,14 @@ a {
 
     .card i {
         padding-bottom: 1rem;
+    }
+
+    .contact h1 {
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    .contact h3 {
+        font-size: smaller;
     }
 }

@@ -86,6 +86,9 @@ main {
     font-size: 6rem;
     letter-spacing: 1.5rem;
     animation: fadeIn ease 6s;
+    padding: 2rem;
+    padding-left: 0;
+
 }
 
 .name h2 {
@@ -177,4 +180,30 @@ main {
 .contact i {
     color: var(--text-color);
     font-size: 3.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        display: block;    
+    }
+
+    .name h1 {
+        font-size: 3.5rem;
+    }
+
+    .about {
+        display: block;
+    }
+
+    .about h1 {
+        font-size: 4rem;
+    }
+
+    .projects h1 {
+        font-size: 3rem;
+    }
+
+    .contact h1 {
+        font-size: 3rem;
+    }
 }

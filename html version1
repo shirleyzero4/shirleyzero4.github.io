@@ -1,0 +1,107 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirley's Website</title>
+    <meta name="viewport" content="width=device-width, intiial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/3e386613d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <section class="glass">
+            <div class="dashboard">
+                <div class="user">
+                    <img src="profile.jpg" class="user-photo">
+                    <h3>Shirley Nguyen</h3>
+                </div>
+                <div class="links">
+                    <div class="link is-active">
+                        <i class="fa-solid fa-house"></i>
+                        <a data-switcher data-link="1"><h2>Home</h2></a>
+                    </div>
+                    <div class="link">
+                        <i class="fa-solid fa-user"></i>
+                        <a data-switcher data-link="2"><h2>About</h2></a>
+                    </div>
+                    <div class="link">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <a data-switcher data-link="3"><h2>Projects</h2></a>
+                    </div>
+                    <div class="link">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a data-switcher data-link="4"><h2>Contact</h2></a>
+                    </div>
+                </div>
+                <a href="Shirley_resume_1_23.pdf" target="_blank">
+                    <div class="resume">
+                        <i class="fa-solid fa-file"></i>
+                        <h2>Resume</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="displays">
+                <div class="display is-active" data-display="1">
+                    <div class="home">
+                        <h1>Welcome! My name is Shirley Nguyen.</h1>
+                    </div>
+                </div>
+                <div class="display" data-display="2">
+                    <div class="about">
+                        <h2>I graduated from the University of California, Riverside with a BS in computational mathematics.</h2>
+                        <div class="icons">
+                            <div class="icon">
+                                <a href="https://www.linkedin.com/in/shirley-c-nguyen/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/shirleyzero4" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="display" data-display="3">
+                    <div class="projects">
+                        <h1>Projects</h1>
+                    </div>
+                    <div class="cards">
+                        <a href="https://shirleyzero4.github.io/" target="_blank">
+                            <div class="card">
+                                <img src="website.png" class="website-photo">
+                                <div class="card-info">
+                                    <h2>Personal Website</h2>
+                                    <div class="tools"></div>
+                                </div>
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <i class="fa-brands fa-square-js"></i>
+                            </div>
+                        </a>
+                        <a href="https://github.com/shirleyzero4/weather-app" target="_blank">
+                            <div class="card">
+                                <img src="weather.png" class="weather-photo">
+                                <div class="card-info">
+                                    <h2>Weather App</h2>
+                                </div>
+                                <i class="fa-brands fa-react"></i>
+                                <i class="fa-brands fa-square-js"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="display" data-display="4">
+                    <div class="contact">
+                        <h1>Contact Me</h1>
+                        <h3>Email me at: </h3>
+                        <h3>shirley.c.nguyen@gmail.com</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <script src="app.js"></script>
+</body>
+</html>
+-->

@@ -194,8 +194,13 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
+    header {
+        margin-top: 1px;
+    }
+
     main {
         display: block;    
+        box-sizing: border-box;
     }
 
     .name h1 {

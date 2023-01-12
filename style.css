@@ -83,7 +83,7 @@ main {
     width: 100%;
     height: 100vh;
     margin-top: 10rem;
-    margin-left: 0.5rem;
+    margin-left: 0.1rem;
 }
 
 .name h1 {
@@ -116,7 +116,7 @@ main {
     position: relative;
     width: 100%;
     height: 100vh;
-    margin-left: 0.5rem;
+    margin-left: 0.1rem;
 }
 
 .about h1 {
@@ -139,7 +139,7 @@ main {
     position: relative;
     width: 100%;
     height: 100vh;
-    margin-left: 0.5rem;
+    margin-left: 0.1rem;
 }
 
 .projects h6{
@@ -170,7 +170,7 @@ main {
     position: relative;
     width: 100%;
     height: 100vh;
-    margin-left: 0.5rem;
+    margin-left: 0.1rem;
 }
 
 .contact h1 {
